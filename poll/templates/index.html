@@ -1,0 +1,7 @@
+{% if latest_question_list %}
+    <ul>
+        {% for p in latest_question_list %}
+        <li><a href="{% url 'poll:detail' p.id %}">{{ p.question_text }} bhuban ghimire</a></li>
+        {% endfor %}
+    </ul>
+{% endif %}
