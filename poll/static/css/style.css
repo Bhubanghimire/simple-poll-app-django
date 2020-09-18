@@ -1,0 +1,10 @@
+li a {
+    color: rgba(235, 236, 240, 0.075);
+    font-weight: bold;
+}
+
+body {
+    background: white url("images/119780952_654184795533784_8167525994050712470_n.png") no-repeat;
+    width: 100%;
+    background-size: cover;
+}
